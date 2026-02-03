@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafijur Rahman | Full Stack Developer</title>
+    <link rel="icon" type="image/x-icon" href="image/logo/Frame 13 (1).webp">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+<body data-theme="light">
+    <!-- Header & Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">SR.</a>
+            
+            <button class="navbar-toggler custom-menu-btn" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+    <span class="menu-text">Menu</span>
+    <span class="menu-icon"></span>
+</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle ms-3" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 fade-left">
+                    <div class="hero-content">
+                        <span class="greeting animate__animated animate__fadeInDown">Hello, I'm</span>
+                        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Shafijur <span class="highlight">Rahman</span></h1>
+                        <h2 class="animate__animated animate__fadeInUp animate__delay-1-5s">Full Stack Web Developer</h2>
+                        <p class="tagline animate__animated animate__fadeInUp animate__delay-2s">I craft premium, fully responsive websites with complete frontend + backend solutions. Specializing in creating dynamic, user-friendly digital experiences that drive results.</p>
+                        
+                        <div class="hero-btns animate__animated animate__fadeInUp animate__delay-2-5s">
+                            <a href="#contact" class="btn btn-primary">Hire Me</a>
+                            <a href="#portfolio" class="btn btn-outline-primary">View Projects</a>
+                        </div>
+                        
+                        <div class="hero-stats animate__animated animate__fadeInUp animate__delay-3s">
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div>
+                                    <div class="stat-number">50 +</div>
+                                    <div class="stat-text">Projects Completed</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div>
+                                    <div class="stat-number">35 +</div>
+                                    <div class="stat-text">Happy Clients</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image fade-right">
+                        <div class="profile-frame">
+                            <img src="image/me/20251215_101608.webp" alt="Shafijur Rahman">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image fade-left">
+                        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" alt="About Me">
+                        <div class="experience-badge">
+                            <div class="years">3+</div>
+                            <div>Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content fade-right">
+                        <div class="section-title">
+                            <h2>About Me</h2>
+                        </div>
+                        <h3>Professional Full Stack Developer Based in Bangladesh</h3>
+                        <p>I am a passionate and results-driven Full Stack Web Developer with over 5 years of experience creating high-quality websites and applications. My expertise spans both frontend and backend development, allowing me to deliver complete digital solutions.</p>
+                        <p>I specialize in building responsive, user-friendly websites using modern technologies like Laravel, WordPress, and React. My approach combines aesthetic design with robust functionality to create digital experiences that not only look great but also perform exceptionally.</p>
+                        
+                        <h4 class="mt-5 mb-4">My Skills</h4>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML/CSS/JavaScript</span>
+                                <span class="skill-percent">98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">PHP & Laravel</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">WordPress Development</span>
+                                <span class="skill-percent">96%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 96%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">MySQL Database</span>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-filter fade-up">
+
+                        
+
+                        <!-- Download CV -->
+                        <a href="image/cv/Shafijur_Rahman_CV.pdf"
+                        class="filter-btn active"
+                        download="Shafijur Rahman CV.pdf">
+                        Download CV
+                        </a>
+                        
+
+                        <!-- See CV -->
+                        <a href="image/cv/Shafijur_Rahman_CV.pdf"
+                        class="filter-btn">
+                        See My CV
+                        </a>
+
+                    </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title center">
+                <h2>My Services</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 fade-up">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4>Website Design</h4>
+                        <p>Modern, clean, and user-friendly website designs that create engaging user experiences and reflect your brand identity.</p>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 fade-up" style="transition-delay: 0.1s">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Full Stack Development</h4>
+                        <p>Complete frontend and backend development using modern technologies like PHP, Laravel, JavaScript, and MySQL.</p>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 fade-up" style="transition-delay: 0.2s">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h4>WordPress Development</h4>
+                        <p>Custom WordPress theme development, plugin customization, and backend solutions for easy content management.</p>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 fade-up" style="transition-delay: 0.3s">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>SEO Optimization</h4>
+                        <p>Fully responsive websites with SEO optimization for better search engine visibility and higher rankings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-title center">
+                <h2>My Portfolio</h2>
+            </div>
+            
+            <div class="portfolio-filter fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="wordpress">WordPress</button>
+                <button class="filter-btn" data-filter="educational">Educational</button>
+            </div>
+            
+            <div class="row g-4 portfolio_part">
+                
+
+                <!-- Item 1 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="ecommerce">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="https://shafijur.github.io/doctors/" target="_blank">
+                        <img src="image/project_img/1.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://shafijur.github.io/doctors/" target="_blank">
+                        <h4>AMS Website</h4>
+                        <p>Track, maintain, and manage all company assets efficiently.</p>
+
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="ecommerce">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="https://shafijur.github.io/our_project/" target="_blank">
+                        <img src="image/project_img/e1.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://shafijur.github.io/our_project/" target="_blank">
+                        <h4>ELITE Website</h4>
+                        <p>Enhance your skills with certified UK courses and take your career to the next level.</p>
+
+
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="web">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="https://shafijur.github.io/web_sare_pro/" target="_blank">
+                        <img src="image/project_img/p1.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://shafijur.github.io/web_sare_pro/" target="_blank">
+                        <h4>Web Care Pro</h4>
+                        <p>Responsive Professional Web Care Pro website with dynamic content.</p>
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="web">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="https://shafijur.github.io/go_crazy/" target="_blank">
+                        <img src="image/project_img/web.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://shafijur.github.io/go_crazy/" target="_blank">
+                        <h4>Go Crazy</h4>
+                        <p>Responsive Professional Go Crazy website with dynamic content.</p>
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="wordpress">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="#" target="_blank">
+                        <img src="image/project_img/word.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="#" target="_blank">
+                        <h4>Coming soon Website</h4>
+                        <p>Professional website with dynamic content.</p>
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="educational">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="https://shafijur.github.io/university/home.html" target="_blank">
+                        <img src="image/project_img/u1.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://shafijur.github.io/university/home.html" target="_blank">
+                        <h4>University Website</h4>
+                        <p>Professional University website with dynamic content.</p>
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 1 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 itemt" data-category="ecommerce">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <a href="https://shafijur.github.io/sup/" target="_blank">
+                        <img src="image/project_img/e2.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://shafijur.github.io/sup/" target="_blank">
+                        <h4>E-cobazar Website</h4>
+                        <p>Full-featured online store with cart and payment system.</p>
+
+
+                        </a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Client Testimonials</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card">
+                                    <p class="mb-4">"Shafijur delivered an exceptional e-commerce website that exceeded our expectations. His attention to detail and commitment to quality are remarkable. The site is fully responsive, fast, and user-friendly."</p>
+                                    <div class="client-info">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Client" class="client-img">
+                                        <div class="client-details">
+                                            <h5>Michael Johnson</h5>
+                                            <p>CEO, TechSolutions Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <p class="mb-4">"Working with Shafijur was a great experience. He transformed our outdated website into a modern, mobile-friendly platform that ranks better on search engines. His communication was excellent throughout the project."</p>
+                                    <div class="client-info">
+                                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client" class="client-img">
+                                        <div class="client-details">
+                                            <h5>Sarah Williams</h5>
+                                            <p>Marketing Director, GlobalCorp</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <p class="mb-4">"The blog platform Shafijur developed for us is perfect. It's fast, secure, and incredibly easy to manage. He was responsive to all our requests and delivered the project ahead of schedule. Highly recommended!"</p>
+                                    <div class="client-info">
+                                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Client" class="client-img">
+                                        <div class="client-details">
+                                            <h5>David Chen</h5>
+                                            <p>Founder, EduBlog Network</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form fade-up">                     
+                        <form action="https://formsubmit.co/sharijursjntr@gmail.com" method="POST" class="mt-4">
+                            <!-- Hidden fields for FormSubmit -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="New Contact Message!">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_next" value="https://Shafijur.github.io/my_portfolio/thankyou.html">
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" name="name" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Your Email</label>
+                                    <input type="email" name="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" name="subject" class="form-control" id="subject" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+
+
+
+
+                        
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/shafijurrahman.dev/" class="social-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@shafijurrahman-dev" class="social-icon" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/shafijurrahman-dev/" class="social-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Shafijur" class="social-icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/shafijur.rahman/" class="social-icon" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-logo">SR.</div>
+                    <p class="footer-about">Full Stack Web Developer specializing in creating premium, responsive websites with complete frontend + backend solutions. Let's build something amazing together.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class="footer-links">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="#services">Website Design</a></li>
+                            <li><a href="#services">Full Stack Development</a></li>
+                            <li><a href="#services">WordPress Development</a></li>
+                            <li><a href="#services">SEO Optimization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                    <div class="footer-links">
+                        <h5>Contact Info</h5>
+                        <ul>
+                            <li><i class="fas fa-envelope me-2"></i> shafijur@example.com</li>
+                            <li><i class="fas fa-phone me-2"></i> +880 1234 567890</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Dhaka, Bangladesh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Shafijur Rahman. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Theme Toggle Functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('i');
+        const body = document.body;
+        
+        // Check for saved theme or default to light
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+        function updateThemeIcon(theme) {
+            if (theme === 'light') {
+                themeIcon.className = 'fas fa-moon';
+            } else {
+                themeIcon.className = 'fas fa-sun';
+            }
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Update active nav link
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                }
+            });
+        });
+        
+        // Update active nav link on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const scrollPosition = window.scrollY + 100;
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+            
+            // Navbar background on scroll
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.boxShadow = 'none';
+            }
+        });
+        
+        // Animation on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.fade-up, .fade-left, .fade-right');
+            
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('animated');
+                }
+            });
+        }
+        
+        // Initial call
+        animateOnScroll();
+        
+        // Call on scroll
+        window.addEventListener('scroll', animateOnScroll);
+        
+        // Portfolio filtering
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                const filterValue = this.getAttribute('data-filter');
+                const portfolioItems = document.querySelectorAll('.itemt');
+                
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0)';
+                        }, 10);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+        
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real implementation, you would send this data to a server
+            // For this example, we'll just show an alert
+            alert(`Thank you, ${name}! Your message has been sent. I will get back to you within 24 hours.`);
+            
+            // Reset form
+            this.reset();
+        });
+        
+        // Initialize carousel
+        const testimonialCarousel = new bootstrap.Carousel(document.getElementById('testimonialCarousel'), {
+            interval: 5000,
+            wrap: true,
+            pause: 'hover'
+        });
+    </script>
+    <script>
+        const toggler = document.querySelector('.custom-menu-btn');
+const text = toggler.querySelector('.menu-text');
+
+toggler.addEventListener('click', () => {
+    text.innerText = text.innerText === 'Menu' ? 'Close' : 'Menu';
+});
+
+    </script>
+
+    
+   
+</body>
+</html>
